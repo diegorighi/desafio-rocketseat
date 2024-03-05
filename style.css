@@ -1,0 +1,104 @@
+body {
+  background-color: #2C2B3D;
+
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+
+  line-height: 40px;
+  font-size: 38px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 100px;
+}
+
+nav h1 {
+  font-weight: bold;
+  line-height: 28px;
+  font-size: 24px;
+}
+
+.logomarca {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+
+  font-family: "JetBrains Mono", monospace;
+  color: white
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+
+  margin-bottom: 184px;
+
+}
+
+h1 span{
+  color: #00BFA6;
+}
+
+.texto p {
+  font-family: "JetBrains Mono", monospace;
+  color: #C2C2C2;
+}
+
+p .negrito {
+  font-weight: bold;
+}
+
+p .verde {
+  color: #00BFA6;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer p {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+}
+
+footer .linha-verde {
+  border-top: 1px solid #00BFA6;
+  margin: 1px 0 1px 0;
+  width: 70%;
+}
+
+#cadeado-maior {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 51px;
+  height: 62pxpx;
+}
